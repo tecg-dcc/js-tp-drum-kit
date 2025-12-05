@@ -20,7 +20,6 @@
             this.html.classList.add('js-enabled');
             this.addEventListener();
         },
-
         addEventListener() {
             window.addEventListener('keydown', (evt) => {
                 this.keySymbol = evt.key;
